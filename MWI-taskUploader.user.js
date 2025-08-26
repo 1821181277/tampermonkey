@@ -9,7 +9,8 @@
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
 // @grant        GM_setValue
-// @downloadUrl  
+// @downloadUrl  https://github.com/1821181277/tampermonkey/raw/refs/heads/main/MWI-taskUploader.user.js
+// @updateUrl    https://github.com/1821181277/tampermonkey/raw/refs/heads/main/MWI-taskUploader.user.js
 // @run-at       document-idle
 // ==/UserScript==
 
