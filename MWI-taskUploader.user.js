@@ -2,7 +2,7 @@
 // @name         MWI Task Uploader
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  自动获取MWI任务列表并上传到指定服务器 访问http://47.122.64.120/taskViewer2.html以查询其他用户的任务（你也可以将该页面下载下来，本地访问，它是一个静态页面） 该插件的目的是查看队友的战斗任务，以方便队长一起清理队伍成员的任务
+// @description  自动获取MWI任务列表并上传到指定服务器 访问http://110.42.63.89 /taskViewer2.html以查询其他用户的任务（你也可以将该页面下载下来，本地访问，它是一个静态页面） 该插件的目的是查看队友的战斗任务，以方便队长一起清理队伍成员的任务
 // @author       fennel
 // @match        https://www.milkywayidle.com/*
 // @match        https://test.milkywayidle.com/*
@@ -19,7 +19,7 @@
 
     // 配置
     const CONFIG = {
-        UPLOAD_URL: "http://47.122.64.120:8080/api/tasks/upload", // 替换为您的服务器URL
+        UPLOAD_URL: "http://110.42.63.89 :8080/api/tasks/upload", // 替换为您的服务器URL
         UPLOAD_INTERVAL: 30000, // 上传间隔(毫秒)
         ENABLED: true // 启用/禁用上传功能
     };
